@@ -13,15 +13,15 @@ import javax.ws.rs.Path;
 @Service
 @Path("/service")
 public class TestServiceImpl implements TestService {
-    @GET
-    @Path("/test")
-    public String test(@HeaderParam("test_message") String test_message) {
-        return "Filtering message: " + test_message;
-    }
+	@GET
+	@Path("/test")
+	public String test(@HeaderParam("test_message") String test_message) {
+		return "Filtering message: " + test_message;
+	}
 
-    @GET
-    @Path("/exception")
-    public String testException() {
-        throw new RuntimeException("Yes");
-    }
+	@GET
+	@Path("/exception")
+	public String testException() {
+		throw new RuntimeException("Yes");
+	}
 }
