@@ -4,10 +4,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.johnsonmoon</groupId>
+    <parent>
+        <groupId>com.github.johnsonmoon</groupId>
+        <artifactId>fast-boot-example-dubbo</artifactId>
+        <version>1.0.1</version>
+    </parent>
+
     <artifactId>fast-boot-example-dubbo-provider</artifactId>
+
     <packaging>pom</packaging>
-    <version>1.0.0</version>
     <modules>
         <module>example-provider-api</module>
         <module>example-provider-impl</module>

@@ -1,4 +1,4 @@
-package com.github.johnsonmoon.fastboot.example.provider;
+package com.github.johnsonmoon.fastboot.example.restservice.provider;
 
 import javax.ws.rs.container.ContainerRequestContext;
 import javax.ws.rs.container.ContainerRequestFilter;

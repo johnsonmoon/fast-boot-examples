@@ -10,7 +10,7 @@
 
 	<!--dubbo settings -->
 	<dubbo:application name="example-provider" />
-	<dubbo:registry address="zookeeper://127.0.0.1:2181" />
+	<dubbo:registry address="zookeeper://10.1.63.10:2181" />
 	<dubbo:protocol name="dubbo" port="20880" />
 	<dubbo:service
 		interface="com.github.johnsonmoon.fastboot.example.service.TestService"

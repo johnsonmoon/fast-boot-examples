@@ -1,4 +1,4 @@
-package com.github.johnsonmoon.fastboot.example.sevice;
+package com.github.johnsonmoon.fastboot.example.restservice.sevice;
 
 /**
  * Created by johnsonmoon at 2018/5/16 13:57.
