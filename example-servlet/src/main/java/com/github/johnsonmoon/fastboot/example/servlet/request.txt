@@ -1,0 +1,18 @@
+curl -X 'POST' -b '_csrf=AR1CYh0lCfTW9li437yCZUYdbdg6MTU0ODk4NjYwOTgzMDc5NTY0OA%3D%3D' -F 'user_id=1' -F 'repo_name=configure' -F 'description=' -F 'gitignores=' -F 'license=' -F 'readme=Default' -F '_csrf=btq0_OabRKFrmoPDIjckUYuYs6k6MTU0ODk4NjQ2NDIwMDcxMTQ2Ng==' 'http://10.1.251.186:9002/api/v1/let2/create'
+
+
+
+
+
+
+curl -X 'POST' -b '_csrf=IyR3f8TvNChY11U8jWfUbiB60oI6MTU0ODk5MzE3NjczMzQ1MzY3Nw%3D%3D' -F 'user_id=1' -F 'repo_name=configure' -F 'description=' -F 'gitignores=' -F 'license=' -F 'readme=Default' -F '_csrf=IyR3f8TvNChY11U8jWfUbiB60oI6MTU0ODk5MzE3NjczMzQ1MzY3Nw==' 'http://10.1.63.10:3000/repo/create'
+
+curl -X 'POST' -b 'lang=en-US;i_like_gogs=d461f7c88d00c1d8;_csrf=90S9i3_YpTm5EFrnNvYSB9LGCTs6MTU0ODk5ODUyMjM5NDU1MjAyOQ%3D%3D' -F 'user_id=1' -F 'repo_name=configure' -F 'description=' -F 'gitignores=' -F 'license=' -F 'readme=Default' -F '_csrf=90S9i3_YpTm5EFrnNvYSB9LGCTs6MTU0ODk5ODUyMjM5NDU1MjAyOQ==' 'http://127.0.0.1:3000/repo/create'
+
+
+
+curl -X 'POST' -b 'lang=en-US;i_like_gogs=d461f7c88d00c1d8;_csrf=90S9i3_YpTm5EFrnNvYSB9LGCTs6MTU0ODk5ODUyMjM5NDU1MjAyOQ%3D%3D' -d 'user_id=1&repo_name=configure&description=&gitignores=&license=&readme=Default&_csrf=90S9i3_YpTm5EFrnNvYSB9LGCTs6MTU0ODk5ODUyMjM5NDU1MjAyOQ==' 'http://127.0.0.1:3000/repo/create'
+
+
+
+curl -v -X 'POST' -H 'Content-Type:application/x-www-form-urlencoded' -H 'User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36' -b 'lang=en-US;i_like_gogs=d461f7c88d00c1d8;_csrf=90S9i3_YpTm5EFrnNvYSB9LGCTs6MTU0ODk5ODUyMjM5NDU1MjAyOQ%3D%3D' -d 'user_id=1&repo_name=configure&description=&gitignores=&license=&readme=Default&_csrf=90S9i3_YpTm5EFrnNvYSB9LGCTs6MTU0ODk5ODUyMjM5NDU1MjAyOQ==' 'http://127.0.0.1:3000/repo/create'

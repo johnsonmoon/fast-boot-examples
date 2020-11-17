@@ -1,0 +1,48 @@
+================================================================================================================================================================================================
+>>>>headers****************************************************************************<<<<
+Header acquired: name:[Cookie], value:[lang=en*US; i_like_gogs=b07b8b94967491eb; _csrf=AR1CYh0lCfTW9li437yCZUYdbdg6MTU0ODk4NjYwOTgzMDc5NTY0OA%3D%3D]
+Header acquired: name:[Cache-Control], value:[no-cache]
+Header acquired: name:[Accept], value:[*/*]
+Header acquired: name:[User-Agent], value:[PostmanRuntime/7.6.0]
+Header acquired: name:[Connection], value:[keep-alive]
+Header acquired: name:[Postman-Token], value:[89133e29-471d-4cc7-b778-02b6df04c839]
+Header acquired: name:[Host], value:[10.1.251.186:9002]
+Header acquired: name:[Accept-Encoding], value:[gzip, deflate]
+Header acquired: name:[Content-Length], value:[872]
+Header acquired: name:[Content-Type], value:[multipart/form-data; boundary=--------------------------269584812559376277196969]
+>>>>cookies****************************************************************************<<<<
+Cookie acquired: name:[lang], value:[en*US]
+Cookie acquired: name:[i_like_gogs], value:[b07b8b94967491eb]
+Cookie acquired: name:[_csrf], value:[AR1CYh0lCfTW9li437yCZUYdbdg6MTU0ODk4NjYwOTgzMDc5NTY0OA%3D%3D]
+>>>>params*****************************************************************************<<<<
+>>>>data*******************************************************************************<<<<
+----------------------------269584812559376277196969
+Content-Disposition: form-data; name="user_id"
+
+1
+----------------------------269584812559376277196969
+Content-Disposition: form-data; name="repo_name"
+
+demo
+----------------------------269584812559376277196969
+Content-Disposition: form-data; name="description"
+
+
+----------------------------269584812559376277196969
+Content-Disposition: form-data; name="gitignores"
+
+
+----------------------------269584812559376277196969
+Content-Disposition: form-data; name="license"
+
+
+----------------------------269584812559376277196969
+Content-Disposition: form-data; name="readme"
+
+Default
+----------------------------269584812559376277196969
+Content-Disposition: form-data; name="_csrf"
+
+_szgjPJ-c_a59VTYUymV-W6u7vk6MTU0ODk4NTQwMzY0NjM3MTc4Mg==
+----------------------------269584812559376277196969--
+================================================================================================================================================================================================
